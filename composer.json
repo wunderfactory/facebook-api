@@ -1,0 +1,24 @@
+{
+    "name": "wunderfactory/facebook-api",
+    "description": "Facebook API Package for Laravel Applications",
+    "require": {
+        "illuminate/support": "^5.1",
+        "facebook/php-sdk-v4": "~5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magnus Langanke",
+            "email": "magnus.langanke@wunderfactory.de"
+        },
+        {
+            "name": "Moritz Ewert",
+            "email": "moritz.ewert@wunderfactory.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wunderfactory\\Facebook\\": "src"
+        }
+    }
+}
